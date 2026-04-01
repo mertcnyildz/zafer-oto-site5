@@ -592,9 +592,9 @@ img{display:block;max-width:100%}
     background-size: 128% auto !important;
     background-position: center 12px !important;
     background-repeat: no-repeat !important;
-    opacity: 0.54 !important;
+    opacity: 0.65 !important;
     transform: none !important;
-    filter: brightness(0.88) contrast(1.02) !important;
+    filter: brightness(0.95) contrast(1.05) !important;
   }
 
   .hero-overlay {
