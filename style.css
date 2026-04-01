@@ -602,30 +602,32 @@ opacity:2;transform:scale(1.03)}
 
 @media (max-width: 768px) {
   .hero {
-    padding-top: 120px !important;
-    padding-bottom: 40px !important;
+    padding-top: 150px !important;
+    padding-bottom: 50px !important;
   }
 
   .hero-content {
-    padding-top: 90px !important;
+    padding-top: 0 !important;
+    margin-top: 120px !important;
   }
 
   .badge {
-    margin-bottom: 20px !important;
+    margin-bottom: 24px !important;
   }
 
   .hero-bg {
-    opacity: 0.85 !important;
+    opacity: 1 !important;
     background-position: center top !important;
-    transform: scale(1.01) !important;
+    transform: scale(1) !important;
+    filter: brightness(1.18) contrast(1.08) !important;
   }
 
   .hero-overlay {
     background: linear-gradient(
       180deg,
-      rgba(11,16,32,.62) 0%,
-      rgba(11,16,32,.58) 35%,
-      rgba(11,16,32,.68) 100%
+      rgba(11,16,32,.30) 0%,
+      rgba(11,16,32,.36) 38%,
+      rgba(11,16,32,.52) 100%
     ) !important;
   }
 
@@ -634,6 +636,6 @@ opacity:2;transform:scale(1.03)}
   }
 
   .hero p {
-    margin-top: 8px !important;
+    margin-top: 12px !important;
   }
 }
