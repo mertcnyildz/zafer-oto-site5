@@ -40,7 +40,7 @@ img{display:block;max-width:100%}
   position:absolute;
   inset:0;
   background:url('assets/images/arkaplann.jpeg') center/cover no-repeat;
-opacity:2;transform:scale(1.03)}
+opacity:.82;transform:scale(1.03)}
 .hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg, rgba(11,16,32,.88) 0%, rgba(11,16,32,.72) 44%, rgba(11,16,32,.60) 100%)}
 .hero-grid{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:30px;align-items:center}
 .badge,.section-tag,.mini-tag{display:inline-flex;padding:8px 14px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.04);border-radius:999px;color:#d9e7ff;font-size:14px}
@@ -575,51 +575,58 @@ opacity:2;transform:scale(1.03)}
   }
 }
 
+/* HERO MOBILE FINAL */
+.hero-bg{
+  opacity: 0.82;
+}
 
 @media (max-width: 768px) {
   .hero {
-    padding-top: 120px !important;
-    padding-bottom: 40px !important;
+    padding-top: 110px !important;
+    padding-bottom: 36px !important;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0 !important;
   }
 
   .hero-content {
-    padding-top: 80px !important;
-  }
-
-  .hero-bg {
-    background-position: center top !important;
-    opacity: 0.62 !important;
+    margin-top: 95px !important;
+    padding-top: 0 !important;
+    position: relative;
+    z-index: 3;
   }
 
   .badge {
-    margin-bottom: 22px !important;
+    margin-bottom: 18px !important;
   }
 
   .hero h1 {
     margin-top: 0 !important;
-  }
-}
-
-@media (max-width: 768px) {
-
-  .hero-content,
-  .hero .container,
-  .hero-text {
-    margin-top: 140px !important;
-    padding-top: 0 !important;
+    font-size: 34px !important;
+    line-height: 1.08 !important;
   }
 
-  .hero {
-    padding-top: 160px !important;
-  }
-
-  .hero-overlay {
-    background: rgba(0,0,0,0.25) !important;
+  .hero p {
+    margin-top: 10px !important;
+    font-size: 14px !important;
+    line-height: 1.55 !important;
   }
 
   .hero-bg {
-    opacity: 1 !important;
-    filter: brightness(1.2) contrast(1.1) !important;
+    background-position: center top !important;
+    opacity: 0.88 !important;
+    transform: scale(1) !important;
+    filter: brightness(1.08) contrast(1.06) !important;
   }
 
+  .hero-overlay {
+    background: linear-gradient(
+      180deg,
+      rgba(11,16,32,.42) 0%,
+      rgba(11,16,32,.48) 35%,
+      rgba(11,16,32,.60) 100%
+    ) !important;
+  }
 }
