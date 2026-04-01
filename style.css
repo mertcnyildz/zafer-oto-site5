@@ -599,3 +599,41 @@ opacity:2;transform:scale(1.03)}
     margin-top: 0 !important;
   }
 }
+
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 120px !important;
+    padding-bottom: 40px !important;
+  }
+
+  .hero-content {
+    padding-top: 90px !important;
+  }
+
+  .badge {
+    margin-bottom: 20px !important;
+  }
+
+  .hero-bg {
+    opacity: 0.85 !important;
+    background-position: center top !important;
+    transform: scale(1.01) !important;
+  }
+
+  .hero-overlay {
+    background: linear-gradient(
+      180deg,
+      rgba(11,16,32,.62) 0%,
+      rgba(11,16,32,.58) 35%,
+      rgba(11,16,32,.68) 100%
+    ) !important;
+  }
+
+  .hero h1 {
+    margin-top: 0 !important;
+  }
+
+  .hero p {
+    margin-top: 8px !important;
+  }
+}
