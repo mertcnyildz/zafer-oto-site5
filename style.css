@@ -44,7 +44,9 @@ img{display:block;max-width:100%}
   transform:scale(1);
   filter: none !important;
 }
-.hero-overlay{none: !important;position:absolute;inset:0;background:linear-gradient(90deg, rgba(11,16,32,.88) 0%, rgba(11,16,32,.72) 44%, rgba(11,16,32,.60) 100%)}
+.hero-overlay {
+  display: none !important;
+}
 .hero-grid{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:30px;align-items:center}
 .badge,.section-tag,.mini-tag{display:inline-flex;padding:8px 14px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.04);border-radius:999px;color:#d9e7ff;font-size:14px}
 .mini-tag{font-size:10px;padding:4px 7px}
@@ -627,5 +629,11 @@ img{display:block;max-width:100%}
 
   .hero-stats span {
     font-size: 11px !important;
+  }
+}
+@media (max-width: 768px) {
+  .hero-bg {
+    opacity: 1 !important;
+    filter: brightness(1.08) contrast(1.12) !important;
   }
 }
