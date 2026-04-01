@@ -615,10 +615,12 @@ opacity:.82;transform:scale(1.03)}
   }
 
   .hero-bg {
-    background-position: center top !important;
-    opacity: 0.88 !important;
-    transform: scale(1) !important;
-    filter: brightness(1.08) contrast(1.06) !important;
+  background-position: center 18% !important;
+  background-size: 118% auto !important;
+  opacity: 0.88 !important;
+  transform: none !important;
+  filter: brightness(1.08) contrast(1.06) !important;
+}
   }
 
   .hero-overlay {
