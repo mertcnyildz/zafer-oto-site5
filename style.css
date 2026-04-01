@@ -292,35 +292,12 @@ img{display:block;max-width:100%}
     font-size:14px;
   }
 
-  .hero{
-    padding:72px 0 34px !important;
-  }
-  .hero-grid{
-    grid-template-columns:1fr !important;
-    gap:18px !important;
-  }
-  .hero h1{
-    font-size:42px !important;
-    max-width:none !important;
-    line-height:1.08 !important;
-  }
-  .hero p{
-    font-size:15px !important;
-    line-height:1.6 !important;
-  }
-  .hero-actions{
-    gap:10px !important;
-  }
+  
   .btn{
     padding:12px 16px !important;
     font-size:14px !important;
   }
-  .hero-stats{
-    display:grid !important;
-    grid-template-columns:repeat(3,1fr);
-    gap:10px !important;
-    margin-top:22px !important;
-  }
+  
   .hero-stats div{
     min-width:0 !important;
     padding:12px !important;
@@ -487,12 +464,7 @@ img{display:block;max-width:100%}
   .container{
     width:min(100% - 20px, 1180px) !important;
   }
-  .hero h1{
-    font-size:34px !important;
-  }
-  .hero p{
-    font-size:14px !important;
-  }
+  
   .hero-actions{
     display:grid !important;
     grid-template-columns:1fr 1fr;
@@ -568,10 +540,10 @@ img{display:block;max-width:100%}
   }
 }
 
+/* HERO MOBILE TEK FINAL AYAR */
 @media (max-width: 768px) {
   .hero {
-    padding-top: 55px !important;
-    padding-bottom: 28px !important;
+    padding: 42px 0 28px !important;
   }
 
   .hero-grid {
@@ -580,7 +552,7 @@ img{display:block;max-width:100%}
   }
 
   .hero-content {
-    margin-top: 205px !important;
+    margin-top: 185px !important;
     padding-top: 0 !important;
     position: relative;
     z-index: 3;
@@ -593,30 +565,66 @@ img{display:block;max-width:100%}
   .hero h1 {
     font-size: 34px !important;
     line-height: 1.08 !important;
-    margin-top: 0 !important;
+    margin: 0 0 14px !important;
+    max-width: none !important;
   }
 
   .hero p {
     font-size: 14px !important;
     line-height: 1.55 !important;
-    margin-top: 10px !important;
+    margin: 0 0 18px !important;
+    color: rgba(244,247,251,.88) !important;
+  }
+
+  .hero-actions {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 12px !important;
+    width: 100% !important;
+  }
+
+  .btn {
+    width: 100% !important;
+    justify-content: center !important;
   }
 
   .hero-bg {
-    background-size: 132% auto !important;
-    background-position: center 8px !important;
+    background-size: 128% auto !important;
+    background-position: center 12px !important;
     background-repeat: no-repeat !important;
-    opacity: 0.58 !important;
+    opacity: 0.54 !important;
     transform: none !important;
-    filter: brightness(0.90) contrast(1.02) !important;
+    filter: brightness(0.88) contrast(1.02) !important;
   }
 
   .hero-overlay {
     background: linear-gradient(
       180deg,
-      rgba(11,16,32,.14) 0%,
-      rgba(11,16,32,.24) 36%,
-      rgba(11,16,32,.56) 100%
+      rgba(11,16,32,.18) 0%,
+      rgba(11,16,32,.28) 34%,
+      rgba(11,16,32,.60) 100%
     ) !important;
+  }
+
+  .hero-stats {
+    display: grid !important;
+    grid-template-columns: repeat(3,1fr) !important;
+    gap: 10px !important;
+    margin-top: 18px !important;
+  }
+
+  .hero-stats div {
+    min-width: 0 !important;
+    padding: 12px !important;
+    border-radius: 14px !important;
+    text-align: center !important;
+  }
+
+  .hero-stats strong {
+    font-size: 20px !important;
+  }
+
+  .hero-stats span {
+    font-size: 11px !important;
   }
 }
