@@ -615,20 +615,19 @@ opacity:.82;transform:scale(1.03)}
   }
 
   .hero-bg {
-  background-position: center 18% !important;
-  background-size: 118% auto !important;
-  opacity: 0.88 !important;
-  transform: none !important;
-  filter: brightness(1.08) contrast(1.06) !important;
-}
+    background-position: center 22% !important;
+    background-size: 112% auto !important;
+    opacity: 0.74 !important;
+    transform: none !important;
+    filter: brightness(0.92) contrast(1.03) !important;
   }
 
   .hero-overlay {
     background: linear-gradient(
       180deg,
-      rgba(11,16,32,.42) 0%,
-      rgba(11,16,32,.48) 35%,
-      rgba(11,16,32,.60) 100%
+      rgba(11,16,32,.50) 0%,
+      rgba(11,16,32,.56) 35%,
+      rgba(11,16,32,.68) 100%
     ) !important;
   }
 }
