@@ -40,8 +40,8 @@ img{display:block;max-width:100%}
   position:absolute;
   inset:0;
   background:url('assets/images/arkaplann.jpeg') center/cover no-repeat;
-  opacity:.82;
-  transform:scale(1.03);
+  opacity:1 !important;
+  transform:scale(1);
 }
 .hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg, rgba(11,16,32,.88) 0%, rgba(11,16,32,.72) 44%, rgba(11,16,32,.60) 100%)}
 .hero-grid{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:30px;align-items:center}
