@@ -568,26 +568,10 @@ img{display:block;max-width:100%}
   }
 }
 
-@media (max-width: 560px){
-  .about-visual{
-    display:none !important;
-  }
-  .about-grid{
-    grid-template-columns:1fr !important;
-  }
-}
-
-/* HERO MOBILE FINAL */
-.hero-bg{
-  opacity: 0.82;
-}
-
-/* HERO MOBILE FINAL */
 @media (max-width: 768px) {
   .hero {
-    padding-top: 40px !important;
-    padding-bottom: 24px !important;
-    min-height: auto !important;
+    padding-top: 90px !important;
+    padding-bottom: 30px !important;
   }
 
   .hero-grid {
@@ -596,7 +580,7 @@ img{display:block;max-width:100%}
   }
 
   .hero-content {
-    margin-top: 340px !important;
+    margin-top: 170px !important;
     padding-top: 0 !important;
     position: relative;
     z-index: 3;
@@ -619,20 +603,20 @@ img{display:block;max-width:100%}
   }
 
   .hero-bg {
-    background-size: contain !important;
+    background-size: 145% auto !important;
+    background-position: center 30px !important;
     background-repeat: no-repeat !important;
-    background-position: center 40px !important;
-    opacity: 0.68 !important;
+    opacity: 0.62 !important;
     transform: none !important;
-    filter: brightness(0.92) contrast(1.02) !important;
+    filter: brightness(0.95) contrast(1.03) !important;
   }
 
   .hero-overlay {
     background: linear-gradient(
       180deg,
-      rgba(11,16,32,.22) 0%,
-      rgba(11,16,32,.34) 45%,
-      rgba(11,16,32,.62) 100%
+      rgba(11,16,32,.20) 0%,
+      rgba(11,16,32,.30) 32%,
+      rgba(11,16,32,.58) 100%
     ) !important;
   }
 }
